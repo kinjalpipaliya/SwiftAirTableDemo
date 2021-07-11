@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A29CB701AC6E584875D9939 /* Pods_AirTableExample_AirTableExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0085C6054EAC9748E284681 /* Pods_AirTableExample_AirTableExampleUITests.framework */; };
+		88574D3E2699F9580021E330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88574D3D2699F9580021E330 /* AppDelegate.swift */; };
+		88574D402699F9580021E330 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88574D3F2699F9580021E330 /* SceneDelegate.swift */; };
+		88574D422699F9580021E330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88574D412699F9580021E330 /* ViewController.swift */; };
+		88574D452699F9580021E330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88574D432699F9580021E330 /* Main.storyboard */; };
+		88574D482699F9580021E330 /* AirTableExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88574D462699F9580021E330 /* AirTableExample.xcdatamodeld */; };
+		88574D4A2699F95C0021E330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88574D492699F95C0021E330 /* Assets.xcassets */; };
+		88574D4D2699F95C0021E330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88574D4B2699F95C0021E330 /* LaunchScreen.storyboard */; };
+		88574D582699F95D0021E330 /* AirTableExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88574D572699F95D0021E330 /* AirTableExampleTests.swift */; };
+		88574D632699F95D0021E330 /* AirTableExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88574D622699F95D0021E330 /* AirTableExampleUITests.swift */; };
+		88574D862699FF900021E330 /* LoadingComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88574D852699FF900021E330 /* LoadingComponent.swift */; };
+		88574D92269A00740021E330 /* CodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88574D90269A00740021E330 /* CodeTableViewCell.swift */; };
+		88574D93269A00740021E330 /* CodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88574D91269A00740021E330 /* CodeTableViewCell.xib */; };
+		88574D98269A01190021E330 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88574D97269A01190021E330 /* User.swift */; };
+		8CACD433A74ABE65A8822992 /* Pods_AirTableExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5A1CD8EE0E48F1E868D1FA /* Pods_AirTableExampleTests.framework */; };
+		ABE60C465EC90A3994CAECE5 /* Pods_AirTableExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACD487029F1055C330F7957 /* Pods_AirTableExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88574D542699F95D0021E330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88574D322699F9580021E330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88574D392699F9580021E330;
+			remoteInfo = AirTableExample;
+		};
+		88574D5F2699F95D0021E330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88574D322699F9580021E330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88574D392699F9580021E330;
+			remoteInfo = AirTableExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		469BB555ABA9BBB05E758632 /* Pods-AirTableExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirTableExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-AirTableExampleTests/Pods-AirTableExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4ACD487029F1055C330F7957 /* Pods_AirTableExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirTableExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62639A4D488B2542D3F4DE37 /* Pods-AirTableExample-AirTableExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirTableExample-AirTableExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-AirTableExample-AirTableExampleUITests/Pods-AirTableExample-AirTableExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DC3574E1822BD34069D3F68 /* Pods-AirTableExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirTableExample.release.xcconfig"; path = "Target Support Files/Pods-AirTableExample/Pods-AirTableExample.release.xcconfig"; sourceTree = "<group>"; };
+		88574D3A2699F9580021E330 /* AirTableExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirTableExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88574D3D2699F9580021E330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88574D3F2699F9580021E330 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88574D412699F9580021E330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88574D442699F9580021E330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88574D472699F9580021E330 /* AirTableExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirTableExample.xcdatamodel; sourceTree = "<group>"; };
+		88574D492699F95C0021E330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88574D4C2699F95C0021E330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88574D4E2699F95C0021E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88574D532699F95D0021E330 /* AirTableExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirTableExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88574D572699F95D0021E330 /* AirTableExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTableExampleTests.swift; sourceTree = "<group>"; };
+		88574D592699F95D0021E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88574D5E2699F95D0021E330 /* AirTableExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirTableExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88574D622699F95D0021E330 /* AirTableExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTableExampleUITests.swift; sourceTree = "<group>"; };
+		88574D642699F95D0021E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88574D852699FF900021E330 /* LoadingComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingComponent.swift; sourceTree = "<group>"; };
+		88574D90269A00740021E330 /* CodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTableViewCell.swift; sourceTree = "<group>"; };
+		88574D91269A00740021E330 /* CodeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeTableViewCell.xib; sourceTree = "<group>"; };
+		88574D97269A01190021E330 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B0085C6054EAC9748E284681 /* Pods_AirTableExample_AirTableExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirTableExample_AirTableExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B563E0785C53A00E3007FBBC /* Pods-AirTableExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirTableExample.debug.xcconfig"; path = "Target Support Files/Pods-AirTableExample/Pods-AirTableExample.debug.xcconfig"; sourceTree = "<group>"; };
+		BA5A1CD8EE0E48F1E868D1FA /* Pods_AirTableExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirTableExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4124CF7B35F6B00C087FECF /* Pods-AirTableExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirTableExampleTests.release.xcconfig"; path = "Target Support Files/Pods-AirTableExampleTests/Pods-AirTableExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7C6664AD30A66E3C4F4669D /* Pods-AirTableExample-AirTableExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirTableExample-AirTableExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-AirTableExample-AirTableExampleUITests/Pods-AirTableExample-AirTableExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88574D372699F9580021E330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE60C465EC90A3994CAECE5 /* Pods_AirTableExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88574D502699F95D0021E330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CACD433A74ABE65A8822992 /* Pods_AirTableExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88574D5B2699F95D0021E330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A29CB701AC6E584875D9939 /* Pods_AirTableExample_AirTableExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		475D6E86B7B8ACC8FE8E346A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B563E0785C53A00E3007FBBC /* Pods-AirTableExample.debug.xcconfig */,
+				7DC3574E1822BD34069D3F68 /* Pods-AirTableExample.release.xcconfig */,
+				62639A4D488B2542D3F4DE37 /* Pods-AirTableExample-AirTableExampleUITests.debug.xcconfig */,
+				D7C6664AD30A66E3C4F4669D /* Pods-AirTableExample-AirTableExampleUITests.release.xcconfig */,
+				469BB555ABA9BBB05E758632 /* Pods-AirTableExampleTests.debug.xcconfig */,
+				D4124CF7B35F6B00C087FECF /* Pods-AirTableExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88574D312699F9580021E330 = {
+			isa = PBXGroup;
+			children = (
+				88574D3C2699F9580021E330 /* AirTableExample */,
+				88574D562699F95D0021E330 /* AirTableExampleTests */,
+				88574D612699F95D0021E330 /* AirTableExampleUITests */,
+				88574D3B2699F9580021E330 /* Products */,
+				475D6E86B7B8ACC8FE8E346A /* Pods */,
+				E6E29ECF5316D33966EC3766 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88574D3B2699F9580021E330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88574D3A2699F9580021E330 /* AirTableExample.app */,
+				88574D532699F95D0021E330 /* AirTableExampleTests.xctest */,
+				88574D5E2699F95D0021E330 /* AirTableExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88574D3C2699F9580021E330 /* AirTableExample */ = {
+			isa = PBXGroup;
+			children = (
+				88574D3D2699F9580021E330 /* AppDelegate.swift */,
+				88574D3F2699F9580021E330 /* SceneDelegate.swift */,
+				88574D412699F9580021E330 /* ViewController.swift */,
+				88574D432699F9580021E330 /* Main.storyboard */,
+				88574D492699F95C0021E330 /* Assets.xcassets */,
+				88574D4B2699F95C0021E330 /* LaunchScreen.storyboard */,
+				88574D4E2699F95C0021E330 /* Info.plist */,
+				88574D462699F9580021E330 /* AirTableExample.xcdatamodeld */,
+				88574D852699FF900021E330 /* LoadingComponent.swift */,
+				88574D90269A00740021E330 /* CodeTableViewCell.swift */,
+				88574D91269A00740021E330 /* CodeTableViewCell.xib */,
+				88574D97269A01190021E330 /* User.swift */,
+			);
+			path = AirTableExample;
+			sourceTree = "<group>";
+		};
+		88574D562699F95D0021E330 /* AirTableExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				88574D572699F95D0021E330 /* AirTableExampleTests.swift */,
+				88574D592699F95D0021E330 /* Info.plist */,
+			);
+			path = AirTableExampleTests;
+			sourceTree = "<group>";
+		};
+		88574D612699F95D0021E330 /* AirTableExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88574D622699F95D0021E330 /* AirTableExampleUITests.swift */,
+				88574D642699F95D0021E330 /* Info.plist */,
+			);
+			path = AirTableExampleUITests;
+			sourceTree = "<group>";
+		};
+		E6E29ECF5316D33966EC3766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ACD487029F1055C330F7957 /* Pods_AirTableExample.framework */,
+				B0085C6054EAC9748E284681 /* Pods_AirTableExample_AirTableExampleUITests.framework */,
+				BA5A1CD8EE0E48F1E868D1FA /* Pods_AirTableExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88574D392699F9580021E330 /* AirTableExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88574D672699F95D0021E330 /* Build configuration list for PBXNativeTarget "AirTableExample" */;
+			buildPhases = (
+				3E5E37CDAB0289D85EC7852E /* [CP] Check Pods Manifest.lock */,
+				88574D362699F9580021E330 /* Sources */,
+				88574D372699F9580021E330 /* Frameworks */,
+				88574D382699F9580021E330 /* Resources */,
+				C044CF5809F03E2791B479D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirTableExample;
+			productName = AirTableExample;
+			productReference = 88574D3A2699F9580021E330 /* AirTableExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88574D522699F95D0021E330 /* AirTableExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88574D6A2699F95D0021E330 /* Build configuration list for PBXNativeTarget "AirTableExampleTests" */;
+			buildPhases = (
+				22F25E22ABDC22794B9BCAD5 /* [CP] Check Pods Manifest.lock */,
+				88574D4F2699F95D0021E330 /* Sources */,
+				88574D502699F95D0021E330 /* Frameworks */,
+				88574D512699F95D0021E330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88574D552699F95D0021E330 /* PBXTargetDependency */,
+			);
+			name = AirTableExampleTests;
+			productName = AirTableExampleTests;
+			productReference = 88574D532699F95D0021E330 /* AirTableExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88574D5D2699F95D0021E330 /* AirTableExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88574D6D2699F95D0021E330 /* Build configuration list for PBXNativeTarget "AirTableExampleUITests" */;
+			buildPhases = (
+				B5B5BF026FF59337E4BFA2F2 /* [CP] Check Pods Manifest.lock */,
+				88574D5A2699F95D0021E330 /* Sources */,
+				88574D5B2699F95D0021E330 /* Frameworks */,
+				88574D5C2699F95D0021E330 /* Resources */,
+				A7C2F5792EAA0F8AF4583A89 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88574D602699F95D0021E330 /* PBXTargetDependency */,
+			);
+			name = AirTableExampleUITests;
+			productName = AirTableExampleUITests;
+			productReference = 88574D5E2699F95D0021E330 /* AirTableExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88574D322699F9580021E330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					88574D392699F9580021E330 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					88574D522699F95D0021E330 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 88574D392699F9580021E330;
+					};
+					88574D5D2699F95D0021E330 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 88574D392699F9580021E330;
+					};
+				};
+			};
+			buildConfigurationList = 88574D352699F9580021E330 /* Build configuration list for PBXProject "AirTableExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88574D312699F9580021E330;
+			productRefGroup = 88574D3B2699F9580021E330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88574D392699F9580021E330 /* AirTableExample */,
+				88574D522699F95D0021E330 /* AirTableExampleTests */,
+				88574D5D2699F95D0021E330 /* AirTableExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88574D382699F9580021E330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88574D93269A00740021E330 /* CodeTableViewCell.xib in Resources */,
+				88574D4D2699F95C0021E330 /* LaunchScreen.storyboard in Resources */,
+				88574D4A2699F95C0021E330 /* Assets.xcassets in Resources */,
+				88574D452699F9580021E330 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88574D512699F95D0021E330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88574D5C2699F95D0021E330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22F25E22ABDC22794B9BCAD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirTableExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E5E37CDAB0289D85EC7852E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirTableExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C2F5792EAA0F8AF4583A89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirTableExample-AirTableExampleUITests/Pods-AirTableExample-AirTableExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirTableExample-AirTableExampleUITests/Pods-AirTableExample-AirTableExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirTableExample-AirTableExampleUITests/Pods-AirTableExample-AirTableExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B5BF026FF59337E4BFA2F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirTableExample-AirTableExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C044CF5809F03E2791B479D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirTableExample/Pods-AirTableExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirTableExample/Pods-AirTableExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirTableExample/Pods-AirTableExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88574D362699F9580021E330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88574D482699F9580021E330 /* AirTableExample.xcdatamodeld in Sources */,
+				88574D422699F9580021E330 /* ViewController.swift in Sources */,
+				88574D3E2699F9580021E330 /* AppDelegate.swift in Sources */,
+				88574D98269A01190021E330 /* User.swift in Sources */,
+				88574D862699FF900021E330 /* LoadingComponent.swift in Sources */,
+				88574D402699F9580021E330 /* SceneDelegate.swift in Sources */,
+				88574D92269A00740021E330 /* CodeTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88574D4F2699F95D0021E330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88574D582699F95D0021E330 /* AirTableExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88574D5A2699F95D0021E330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88574D632699F95D0021E330 /* AirTableExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88574D552699F95D0021E330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88574D392699F9580021E330 /* AirTableExample */;
+			targetProxy = 88574D542699F95D0021E330 /* PBXContainerItemProxy */;
+		};
+		88574D602699F95D0021E330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88574D392699F9580021E330 /* AirTableExample */;
+			targetProxy = 88574D5F2699F95D0021E330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88574D432699F9580021E330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88574D442699F9580021E330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88574D4B2699F95C0021E330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88574D4C2699F95C0021E330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88574D652699F95D0021E330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88574D662699F95D0021E330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88574D682699F95D0021E330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B563E0785C53A00E3007FBBC /* Pods-AirTableExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = AirTableExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirTableExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88574D692699F95D0021E330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC3574E1822BD34069D3F68 /* Pods-AirTableExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = AirTableExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirTableExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88574D6B2699F95D0021E330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469BB555ABA9BBB05E758632 /* Pods-AirTableExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = AirTableExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirTableExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTableExample.app/AirTableExample";
+			};
+			name = Debug;
+		};
+		88574D6C2699F95D0021E330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4124CF7B35F6B00C087FECF /* Pods-AirTableExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = AirTableExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirTableExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTableExample.app/AirTableExample";
+			};
+			name = Release;
+		};
+		88574D6E2699F95D0021E330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62639A4D488B2542D3F4DE37 /* Pods-AirTableExample-AirTableExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = AirTableExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirTableExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirTableExample;
+			};
+			name = Debug;
+		};
+		88574D6F2699F95D0021E330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C6664AD30A66E3C4F4669D /* Pods-AirTableExample-AirTableExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = AirTableExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirTableExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirTableExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88574D352699F9580021E330 /* Build configuration list for PBXProject "AirTableExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88574D652699F95D0021E330 /* Debug */,
+				88574D662699F95D0021E330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88574D672699F95D0021E330 /* Build configuration list for PBXNativeTarget "AirTableExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88574D682699F95D0021E330 /* Debug */,
+				88574D692699F95D0021E330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88574D6A2699F95D0021E330 /* Build configuration list for PBXNativeTarget "AirTableExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88574D6B2699F95D0021E330 /* Debug */,
+				88574D6C2699F95D0021E330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88574D6D2699F95D0021E330 /* Build configuration list for PBXNativeTarget "AirTableExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88574D6E2699F95D0021E330 /* Debug */,
+				88574D6F2699F95D0021E330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88574D462699F9580021E330 /* AirTableExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88574D472699F9580021E330 /* AirTableExample.xcdatamodel */,
+			);
+			currentVersion = 88574D472699F9580021E330 /* AirTableExample.xcdatamodel */;
+			path = AirTableExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88574D322699F9580021E330 /* Project object */;
+}

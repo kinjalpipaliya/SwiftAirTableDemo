@@ -1,0 +1,16 @@
+PODS:
+  - SwiftAirtable (1.0.0)
+
+DEPENDENCIES:
+  - SwiftAirtable
+
+SPEC REPOS:
+  trunk:
+    - SwiftAirtable
+
+SPEC CHECKSUMS:
+  SwiftAirtable: 5a2178fcdc6102a23eebbbd358941e70c707c3e1
+
+PODFILE CHECKSUM: 8642f2047f542f749ccb76d5025853edff718417
+
+COCOAPODS: 1.10.1
